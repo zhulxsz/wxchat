@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+    wxchat:
+        container_name: wxchat
+        restart: always
+        ports:
+            - '80:80'
+        image: 'ddsderek/wxchat:latest'
